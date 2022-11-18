@@ -3,7 +3,7 @@ import {useQuery,QueryClient,QueryClientProvider,} from 'react-query'
 import Person from './Person'
 
 const fetchPeople = async () => {
-    const res = await fetch('http://swapi.dev/api/people/')
+    const res = await fetch('https://swapi.dev/api/people/')
     return await res.json()
 }
 
